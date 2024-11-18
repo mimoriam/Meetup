@@ -15,9 +15,7 @@ export default function EventPage() {
 
   return (
     <View className="flex-1 gap-3 bg-white p-3">
-      <Stack.Screen
-        options={{ title: 'Event', headerBackTitleVisible: false, headerTintColor: 'black' }}
-      />
+      <Stack.Screen options={{ title: 'Event', headerTintColor: 'black' }} />
 
       <Image source={{ uri: event.image }} className="aspect-video w-full rounded-xl" />
 
